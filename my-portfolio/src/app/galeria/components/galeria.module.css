@@ -1,0 +1,14 @@
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+.mimage{
+    border-radius: 40px;
+    transition: filter 0.3s ease;
+}
+.mimage:hover{
+    opacity: 0.6;
+
+}

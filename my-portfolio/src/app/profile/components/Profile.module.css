@@ -6,12 +6,25 @@
     height: 350px;
     gap: 40px;
 }
+.perfilredondo{
+        width: 215px;
+        height: 215px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        border-color: #6918b4;
+        border-width: 6px;
+        border-style: solid;
+}
 .img-perfil{
     width: 192px;
     height: 192px;
     border-radius: 192px;
 }
 .icon-perfil{
+    margin-top: 10px;
     display: flex;
     width: max-content;
 }
@@ -22,9 +35,10 @@
 .perfil{
     display: flex;
     flex-direction: column;
-    color: #A3ABB2;
+    color: #122b7e;
 }
 .perfil p{
-    margin-top: -20px;
+    margin-top: 5px;
     font-size: 22px;
+    color: #1a3eb4;
 }
